@@ -1,0 +1,51 @@
+HELP.md
+### 前端 ###
+campus-runner-frontend/node_modules/
+campus-runner-frontend/dist/
+
+### 运行时生成 ###
+uploads/
+*.log
+dist.tar.gz
+
+### 系统 ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### 构建产物 ###
+target/
+*.jar
+!delivery_products/*.jar
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/

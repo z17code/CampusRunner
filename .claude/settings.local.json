@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw compile *)",
+      "Bash(./mvnw dependency:tree -f pom.xml -Dincludes=org.springframework.boot)",
+      "Bash(./mvnw -f pom.xml dependency:tree -Dincludes=\"*\" -DoutputFile=deps.txt)"
+    ]
+  }
+}
